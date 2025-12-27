@@ -78,4 +78,4 @@ This project is optimized for deployment on **Vercel**:
 3. Ensure serverless functions environment allows for enough memory for MediaPipe (at least 512MB recommended).
 
 ## 📜 License
-MIT License - See [LICENSE](LICENSE) for details.
+MIT License - See [LICENSE](LICENSE) for details............
