@@ -85,7 +85,7 @@ async def send_telegram_alert(message, image_bytes=None):
 
 @app.route('/', methods=['GET'])
 def index():
-    return send_from_directory(app.static_folder, 'index.html')
+    return jsonify({"status": "ok deployed"})
 
 @app.route('/static/<path:path>')
 def serve_static(path):
